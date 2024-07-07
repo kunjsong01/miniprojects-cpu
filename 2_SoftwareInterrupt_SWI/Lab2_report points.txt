@@ -1,0 +1,13 @@
+Lab2_report points:
+
+- Bug: In text_out.s, remove "ENTRY", otherwise multiple ENTRY lines confuse the compiler
+- Copy TextOut subroutine to swi.s, change to MOVS
+- In vectors.s, change SWI_Addr to My_SWI_Handler
+(Now the program should print everything when running)
+
+- Click on swi_test.s to see the diassembly code (to show the memory address!)
+- Set breakpoint in the first line of My_SWI_Handler, to be able to pause and see the value in memory
+	* click on Processor Views -> Memory to open what in the memory
+	* miss align! (-4 works, -8 not working!)
+
+- Remember to add: Register view, Memory view and Disassembly view to show your logic
